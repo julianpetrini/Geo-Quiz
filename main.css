@@ -1,0 +1,64 @@
+body{
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+
+.boton-img{
+    position: relative;
+    width: 28%;
+    height: auto;
+
+}
+
+.bg-color{
+    background-color: #0292b7;
+}
+
+.gframe{
+    margin-bottom: 9rem;
+    padding-bottom: 8rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius:15px;
+}
+
+.header1{
+    background-image: url('img/3.png');
+       
+}
+
+.maskstyle{
+    
+    
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius:15px;
+    width: auto;
+    
+
+}
+
+.start{
+    max-width: 100%;
+}
+
+
+
+/* HIDE RADIO */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    outline: 5px solid rgb(255, 255, 255);
+    border-radius:50%;
+  }

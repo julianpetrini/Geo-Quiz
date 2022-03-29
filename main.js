@@ -77,7 +77,28 @@ function fragen1(){
     }
 }
 
-function setWarning(text) {
-    let warningElement = document.getElementById("validation-warning");
-    warningElement.innerText = text;
+function fragen2(){
+    var getSelectedValue = document.querySelector( 'input[name="question2"]:checked'); 
+
+    
+    if(getSelectedValue === null) {   
+        alert("Choose an option please");  
+        return false;
+    }
+    else if(getSelectedValue===document.getElementById('correct')){
+        alert("YOU ARE AMAZING");  
+    }
+    else if(getSelectedValue===document.getElementById('incorrect')){
+        alert("YOU SHOULD STUDY");
+        window.open('https://www.history.com/news/what-is-the-smallest-country-in-the-world#:~:text=Based%20on%20landmass%2C%20Vatican%20City,than%20the%20island%20of%20Manhattan.','_blank');
+        return false;
+    }
+    else if(getSelectedValue===document.getElementById('incorrect1')){
+        alert("YOU SHOULD STUDY");
+        window.open('https://www.history.com/news/what-is-the-smallest-country-in-the-world#:~:text=Based%20on%20landmass%2C%20Vatican%20City,than%20the%20island%20of%20Manhattan.','_blank');        return false;
+    }
+    else if(getSelectedValue===document.getElementById('incorrect2')){
+        alert("YOU SHOULD STUDY");
+        window.open('https://www.history.com/news/what-is-the-smallest-country-in-the-world#:~:text=Based%20on%20landmass%2C%20Vatican%20City,than%20the%20island%20of%20Manhattan.','_blank');        return false;
+    }
 }

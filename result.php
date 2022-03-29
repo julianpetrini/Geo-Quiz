@@ -51,9 +51,6 @@ $_SESSION['question2']=$_POST['question2'];
 
 
 
-
-
-
 </body>
 
 <!--END OF CONTENT-->

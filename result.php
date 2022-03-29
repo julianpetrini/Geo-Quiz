@@ -1,28 +1,46 @@
-<?php include 'inc/header.php';
 
-$_SESSION['question2']=$_POST['question2'];
-?>
+<!DOCTYPE html>
 
 
-<!--CONTENT-->
+<html>
+ 
+<head>
+ <meta charset=UTF-8 />
+ 
+ <title>GeoMinds Quiz</title>
+ 
+ <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+ 
 <body>
-    
-        <div class="mask maskstyle">
-            <div class="p-5 text-center bg-image header1" >
-                <div class="d-flex justify-content-center align-items-center h-75">
-                    <div class="text-white">
-                        <h1 class="mb-3 display-1">RESULT PAGE</h1>
-                       <?php
-                        echo "This is the answer : " . $_SESSION['question1']."<br>"; 
-                        echo "This is the answer : " . $_SESSION['question2']."<br>";
-                        ?>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
+ 
+ <div id="page-wrap">
+ 
+ 
+ 
+        <?php
+            
+            
+            $answer3 = $_POST['question-3-answers'];
+            $answer4 = $_POST['question-4-answers'];
+            
+        
+            $totalCorrect = 0;
+            
+            
+            if ($answer3 == "A") { $totalCorrect++; }
+            if ($answer4 == "B") { $totalCorrect++; }
+            
+            
+            echo "<div id='results'>$totalCorrect / 2 correct</div>";
+            
+        ?>
+ 
+ </div>
+ 
+</body>
+ 
+</html>
 
 
 
@@ -56,5 +74,5 @@ $_SESSION['question2']=$_POST['question2'];
 
 </body>
 
-<!--END OF CONTENT-->
+
 <?php include 'inc/footer.php';?>

@@ -13,29 +13,29 @@ if(isset($_POST['submit'])){
 <!--CONTENT-->
 <body>
     
-    <form name="form1" action="question2.php" method="POST" onsubmit="validateQuestion(inputID, radioName)">
+    <form name="form1" action="question2.php" method="POST" onsubmit="return fragen1()">
         <div class="mask maskstyle">
             <div class="p-5 text-center bg-image header1" >
                 <div class="d-flex justify-content-center align-items-center h-75">
                     <div class="text-white">
                         <h1 class="mb-3 display-1">How many countries do we have in the world today?</h1>
                         <label>
-                            <input type="radio" name="question1" value="1" id="single-choice-1">
+                            <input type="radio" name="question1" value="1" id="correct">
                             <img src="img/b11.png" width="auto" height="58">
                         </label>
 
                         <label>
-                            <input type="radio" name="question1" value="2" id="single-choice-1">
+                            <input type="radio" name="question1" value="0" id="incorrect">
                             <img src="img/b22.png" width="auto" height="58">
                         </label>
 
                         <label>
-                            <input type="radio" name="question1" value="3" id="single-choice-1">
+                            <input type="radio" name="question1" value="0" id="incorrect1">
                             <img src="img/b33.png" width="auto" height="58">
                         </label>
 
                         <label>
-                            <input type="radio" name="question1" value="4" id="single-choice-1">
+                            <input type="radio" name="question1" value="0" id="incorrect2">
                             <img src="img/b44.png" width="auto" height="58">
                         </label>
 
@@ -51,41 +51,8 @@ if(isset($_POST['submit'])){
             </div>
         </div>
     </form>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 </body>
 
-<!--END OF CONTENT-->
+<!--JULIAN PETRINI AUTHOR-->
 <?php include 'inc/footer.php';?>

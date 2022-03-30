@@ -1,6 +1,6 @@
 <?php include 'inc/header.php';?>
 
-<img src="img/2.png" class = "img-fluid">
+
 <!--CONTENT-->
 <body>
 <!--<img class="card-img-top" src="img/AboutUs.png" alt="Card image" style="width:100%">
@@ -77,16 +77,20 @@
 </div>
 
 
-<div class="p-5 text-center bg-image"style="background-image: url('img/AboutUs.png');height: 400px; padding:3rem;">
-        <div class="mask" style="background-color: rgba(0, 0, 0, 0.1); border-radius:15px;">
-            <div class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-white">
-                    <h1 class="mb-3 display-6">GeoMinds provides entertaining educational quiz games for kids, students, adults and seniors to test and improve their geographic knowledge. Our internet quiz contains questions about countries in the world and challenges your brain. Whether you're practicing for exams, looking for your next vacation destination or simply wanna play for fun, you've come to the right place. The free educational resources on this page are useful for elementary,  high school, homeschooling, homework support, and tutoring teachers. For everyone who wants to explore and learn about the world. Enjoy!!!
-</h1>
+<div class="p-5 text-center bg-image header1" >
+            <div class="mask maskstyle">
+                <div class="d-flex justify-content-center align-items-center h-75">
+                    <div class="text-white">
+                        <h6 class="mb-1 display-6">GeoMinds provides entertaining educational quiz games for kids, students, adults and seniors to test and improve their geographic knowledge.
+                             Our internet quiz contains questions about countries in the world and challenges your brain. 
+                             Whether you're practicing for exams, looking for your next vacation destination or simply wanna play for fun, you've come to the right place. 
+                             The free educational resources on this page are useful for elementary,  high school, homeschooling, homework support, and tutoring teachers. 
+                             For everyone who wants to explore and learn about the world. Enjoy!!!
+                        </h6>
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div>  
 
 
 

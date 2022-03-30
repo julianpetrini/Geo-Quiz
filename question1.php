@@ -25,17 +25,17 @@ if(isset($_POST['submit'])){
                         </label>
 
                         <label>
-                            <input type="radio" name="question1" value="2" id="incorrect">
+                            <input type="radio" name="question1" value="0" id="incorrect">
                             <img src="img/b22.png" width="auto" height="58">
                         </label>
 
                         <label>
-                            <input type="radio" name="question1" value="3" id="incorrect1">
+                            <input type="radio" name="question1" value="0" id="incorrect1">
                             <img src="img/b33.png" width="auto" height="58">
                         </label>
 
                         <label>
-                            <input type="radio" name="question1" value="4" id="incorrect2">
+                            <input type="radio" name="question1" value="0" id="incorrect2">
                             <img src="img/b44.png" width="auto" height="58">
                         </label>
 
@@ -51,41 +51,8 @@ if(isset($_POST['submit'])){
             </div>
         </div>
     </form>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
 </body>
 
-<!--END OF CONTENT-->
+<!--JULIAN PETRINI AUTHOR-->
 <?php include 'inc/footer.php';?>

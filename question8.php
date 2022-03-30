@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
 <!--CONTENT-->
 <body>
     
-    <form name="form2" action="result.php" method="POST" onsubmit="return fragen8()">
+    <form name="form8" action="result.php" method="POST" onsubmit="return fragen8();">
         <div class="mask maskstyle">
             <div class="p-5 text-center bg-image header1" >
                 <div class="d-flex justify-content-center align-items-center h-75">

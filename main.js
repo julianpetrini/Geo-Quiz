@@ -53,3 +53,168 @@ function fragen2(){
 
 
 //END OF JS JULIAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Schneider.J :-P
+
+
+
+
+function fragen5(){
+    var getSelectedValue = document.querySelector( 'input[name="question5"]:checked'); 
+
+    
+    if(getSelectedValue === null) {   
+        alert("Choose an option please");  
+        return false;
+    }
+    else if(getSelectedValue===document.getElementById('correct')){
+        alert("BRAVO SLAY QUEEN !!");  
+    }
+    else if(getSelectedValue===document.getElementById('incorrect')){
+        alert("STUDY MORE QUEEN !!");
+        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/ ','_blank');
+        
+    }
+    else if(getSelectedValue===document.getElementById('incorrect1')){
+        alert("STUDY MORE QUEEN !!");
+        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/','_blank'); 
+    }
+    else if(getSelectedValue===document.getElementById('incorrect2')){
+        alert("YOU SHOULD STUDY");
+        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/','_blank');
+    }
+}
+
+function fragen6(){
+    var getSelectedValue = document.querySelector( 'input[name="question6"]:checked'); 
+
+    
+    if(getSelectedValue === null) {   
+        alert("Choose an option please");  
+        return false;
+    }
+    else if(getSelectedValue===document.getElementById('correct')){
+        alert("GIRL GET THAT POINT !");  
+    }
+    else if(getSelectedValue===document.getElementById('incorrect')){
+        alert("REALLY ?WHAT DID YOU LEARN AT SCHOOL ??");
+        window.open('https://www.worldatlas.com/articles/which-cities-are-located-on-two-continents.html','_blank');
+    }
+    else if(getSelectedValue===document.getElementById('incorrect1')){
+        alert("REALLY ?WHAT DID YOU LEARN AT SCHOOL ??");
+        window.open('https://www.worldatlas.com/articles/which-cities-are-located-on-two-continents.html','_blank');
+    }
+    else if(getSelectedValue===document.getElementById('incorrect2')){
+        alert("REALLY ?WHAT DID YOU LEARN AT SCHOOL ??");
+        window.open('https://www.worldatlas.com/articles/which-cities-are-located-on-two-continents.html','_blank');
+    }
+}
+
+//Schneider.J

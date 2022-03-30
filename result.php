@@ -48,7 +48,6 @@ $_SESSION['question8']=$_POST['question8'];
         </div>
     </div>
 
-    
 </body>
 
 <!--JULIAN PETRINI AUTHOR-->

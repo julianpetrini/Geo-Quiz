@@ -16,3 +16,5 @@
             <a class="text-white" href="https://trello.com/b/dXd33vMD/geo-quiz-project" target="_blank">GEOMINDS</a>
         </div>
     </footer>
+
+<!--JULIAN PETRINI AUTHOR-->

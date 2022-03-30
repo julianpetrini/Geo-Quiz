@@ -1,6 +1,6 @@
 <?php include 'inc/header.php';?>
 
-
+<img src="img/2.png" class = "img-fluid">
 <!--CONTENT-->
 <body>
 <!--<img class="card-img-top" src="img/AboutUs.png" alt="Card image" style="width:100%">

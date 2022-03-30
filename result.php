@@ -1,7 +1,5 @@
-<?php include 'inc/header.php';
 
-$_SESSION['question2']=$_POST['question2'];
-?>
+<!DOCTYPE html>
 
 
 <!--RESULT INFO-->

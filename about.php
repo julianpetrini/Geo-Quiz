@@ -24,47 +24,47 @@
 
 <div class="card border-light mb-3" style="max-width: auto">
 <div class="row row-cols-1 row-cols-md-4 g-4">
-  <div class="col">
-    <div class="card" style="display: flex;">
+ <div class="col-sm">
+    <div class="card h-100 style="display: flex;">
     <img src="img/Ali4.png" class="display: flex;">
       <div class="card-body">
         <h5 class="card-title">Ali Filliol</h5>
         <p class="card-text"
         >"Hi, my name is Ali. I have experience in Marketing , (specially in visual design and creative arts)  that is why I love to style everything.
-        I like to learn new things, exercise my brain and pay attention to details. I am really into sports (weight lifting) and charity work." <br><br><br></p>
+        I like to learn new things, exercise my brain and pay attention to details. I am really into sports (weight lifting) and charity work." </p>
       </div>
     </div>
   </div>
 
   
-  <div class="col">
-  <div class="card" style="display: flex;">
+  <div class="col-sm">
+  <div class="card h-100 style="display: flex;">
   <img src="img/Chanel1.png" class="display: flex;">
 
   <div class="card-body">
         <h5 class="card-title">Chanel Kyen Suh</h5>
         <p class="card-text">"Hi my name is Chanel,nice to meet you! I love to play games and especially geography games because i can learn so much from it.
           That's why it was a huge inspiration to be a part of this website. Enjoy!!"
-             <br><br><br><br>   </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col">
-  <div class="card" style="display: flex;">
-    <img src="img/Julian1.png" class="display: flex">
-      <div class="card-body">
-        <h5 class="card-title">Julian Petrini</h5>
-        <p class="card-text">"My name is Julian. I nourish from smiles and balance.
-             I've found out that I love to create, and all the processes involved. That is the reason why I paid attention to the tools that come into my path.
-             I've played with video production tools, photography, and music along the way. Nowadays I'm in love with coding." <br> <br>
         </p>
       </div>
     </div>
   </div>
 
-  <div class="col">
-  <div class="card" style="display: flex;">
+  <div class="col-sm">
+  <div class="card h-100 style="display: flex;">
+    <img src="img/Julian1.png" class="display: flex">
+      <div class="card-body">
+        <h5 class="card-title">Julian Petrini</h5>
+        <p class="card-text">"My name is Julian. I nourish from smiles and balance.
+             I've found out that I love to create, and all the processes involved. That is the reason why I paid attention to the tools that come into my path.
+             I've played with video production tools, photography, and music along the way. Nowadays I'm in love with coding." 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm">
+  <div class="card h-100 style="display: flex;">
     <img src="img/Kyle1.png" class="display: flex">
       <div class="card-body">
         <h5 class="card-title">Kyle Schneider</h5>

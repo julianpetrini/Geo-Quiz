@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
 <!--Question 5 Schneider.J-->
 <body>
     
-    <form name="form5" action="question5.php" method="POST" onsubmit="validateQuestion(inputID, radioName)">
+    <form name="form5" action="question6.php" method="POST" onsubmit="validateQuestion(inputID, radioName)">
         <div class="mask maskstyle">
             <div class="p-5 text-center bg-image header1" >
                 <div class="d-flex justify-content-center align-items-center h-75">

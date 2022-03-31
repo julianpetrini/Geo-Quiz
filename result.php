@@ -3,7 +3,6 @@
 $_SESSION['question8']=$_POST['question8'];
 ?>
 
-
 <!--RESULT INFO-->
 <body>
     <div class="mask maskstyle">

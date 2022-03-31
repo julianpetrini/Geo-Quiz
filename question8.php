@@ -1,4 +1,4 @@
-<?php include 'inc/header.php'; 
+<?php include 'inc/header.php';
 
 $_SESSION['question8']=$_POST['question8'];
 
@@ -58,11 +58,4 @@ if(isset($_POST['submit'])){
 </body>
 
 <!--JULIAN PETRINI AUTHOR-->
-<?php include 'inc/footer.php';?>
-
-
-
-</body>
-
-<!--END OF CONTENT-->
 <?php include 'inc/footer.php';?>

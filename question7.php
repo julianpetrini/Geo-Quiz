@@ -59,9 +59,3 @@ if(isset($_POST['submit'])){
 
 <!--JULIAN PETRINI AUTHOR-->
 <?php include 'inc/footer.php';?>
-
-
-</body>
-
-<!--END OF CONTENT-->
-<?php include 'inc/footer.php';?>

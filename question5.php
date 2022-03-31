@@ -17,7 +17,7 @@ if(isset($_POST['submit'])){
 <!--Question 5 Schneider.J-->
 <body>
     
-    <form name="form5" action="question6.php" method="POST" onsubmit="validateQuestion(inputID, radioName)">
+    <form name="form5" action="question6.php" method="POST" onsubmit="return fragen5()">
         <div class="mask maskstyle">
             <div class="p-5 text-center bg-image header1" >
                 <div class="d-flex justify-content-center align-items-center h-75">
@@ -29,17 +29,17 @@ if(isset($_POST['submit'])){
                         </label>
 
                         <label>
-                            <input type="radio" name="question5" value="2" id="incorrect">
+                            <input type="radio" name="question5" value="0" id="incorrect">
                             <img src="img/China.jpg" width="220" height="170">
                         </label>
 
                         <label>
-                            <input type="radio" name="question5" value="3" id="incorrect1">
+                            <input type="radio" name="question5" value="0" id="incorrect1">
                             <img src="img/Germany.jpg" width="220" height="170">
                         </label>
 
                         <label>
-                            <input type="radio" name="question5" value="4" id="incorrect2">
+                            <input type="radio" name="question5" value="0" id="incorrect2">
                             <img src="img/Japan.jpg" width="220" height="170">
                         </label>
 

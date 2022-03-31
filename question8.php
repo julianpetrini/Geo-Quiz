@@ -1,6 +1,6 @@
 <?php include 'inc/header.php';
 
-$_SESSION['question8']=$_POST['question8'];
+$_SESSION['question7']=$_POST['question7'];
 
 // JUST TO TEST IF IT WAS TAKING THE INFO  echo "This is the answer : " . $_SESSION['question6']."<br>"; 
 

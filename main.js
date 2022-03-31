@@ -55,7 +55,7 @@ function fragen2(){
 //Schneider.J :-P
 
 function fragen5(){
-    var getSelectedValue = document.querySelector( 'input[name="question5"]:checked'); 
+    let getSelectedValue = document.querySelector( 'input[name="question5"]:checked'); 
 
     
     if(getSelectedValue === null) {   
@@ -63,25 +63,21 @@ function fragen5(){
         return false;
     }
     else if(getSelectedValue===document.getElementById('correct')){
-        alert("BRAVO SLAY QUEEN !!");  
+        alert("YASS QUEEN SLAY !");  
     }
     else if(getSelectedValue===document.getElementById('incorrect')){
-        alert("STUDY MORE QUEEN !!");
-        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/ ','_blank');
-        
-    }
+        alert("GIRL ?? REALLY GO BACK TO SCHOOL DUMMY!!");
+        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/ ','_blank');    }
     else if(getSelectedValue===document.getElementById('incorrect1')){
-        alert("STUDY MORE QUEEN !!");
-        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/','_blank'); 
-    }
+        alert("GIRL ?? REALLY GO BACK TO SCHOOL DUMMY!!");
+        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/ ','_blank');    }
     else if(getSelectedValue===document.getElementById('incorrect2')){
-        alert("YOU SHOULD STUDY");
-        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/','_blank');
-    }
+        alert("GIRL ?? REALLY GO BACK TO SCHOOL DUMMY!!");
+        window.open('https://www.weforum.org/agenda/2018/03/these-are-the-world-s-most-densely-populated-places/ ','_blank');    }
 }
 
 function fragen6(){
-    var getSelectedValue = document.querySelector( 'input[name="question6"]:checked'); 
+    let getSelectedValue = document.querySelector( 'input[name="question6"]:checked'); 
 
     
     if(getSelectedValue === null) {   

@@ -16,11 +16,11 @@ $_SESSION['question8']=$_POST['question8'];
 
                         if (array_sum($a)==0)
                         {
-                            echo "<h1 class='mb-3 text-center texto-up'>All were wrong ! what happened</h1>";
+                            echo "<h1 class='mb-3 text-center texto-up'>Please try again, what happened?</h1>";
                             
                         }
                         else if (array_sum($a)<5){
-                            echo "<h1 class='mb-3 text-center texto-up'>You should improve your Geo knowledges</h1>";
+                            echo "<h1 class='mb-3 text-center texto-up'>You should improve your Geo knowledge</h1>";
                         }
 
                         else if (array_sum($a)<7){
@@ -37,7 +37,7 @@ $_SESSION['question8']=$_POST['question8'];
 
                         $total=array_sum($a);
                     
-                        echo "<h1 class='mb-3 text-center texto-up'>This is your total points: $total</h1>
+                        echo "<h1 class='mb-3 text-center texto-up'>This is your total points: $total/8</h1>
                                 <div class='img-responsive'>
                                     <img src='/img/logo.png'>
                                 </div>"

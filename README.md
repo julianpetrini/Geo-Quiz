@@ -13,3 +13,6 @@ Chanel Kyen Suh - Scrum Master / Team-leader / Git-Master / Backend - Content (A
 Ali Filliol - Graphics + Design / Backend - Content (Question Page)
 Kyle Schneider -  Graphics + Design / Backend - Content (Question Page)
 Julian Petrini -  Backend Content (Index Page + Question Page + Results Page)   
+
+
+-Chanel Kyen Suh

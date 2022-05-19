@@ -1,4 +1,7 @@
 # Geo-Quiz
+
+![Image text](https://raw.githubusercontent.com/julianpetrini/Geo-Quiz/main/img/desktop.png)
+
 Trello link:  https://trello.com/invite/b/dXd33vMD/e289ee690e696ba73d533924c6b846f3/geo-quiz-project
 Figma link: https://www.figma.com/file/oRBusBG55yWCKXF1rgEFOv/GeoMinds-MockUp?node-id=0%3A1
 
